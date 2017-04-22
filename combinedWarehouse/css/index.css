@@ -1,0 +1,456 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "微软雅黑";
+	background: url('../img/bg.png');
+}
+.divFrame {
+	width: 1465px;
+	height: 863px;
+	margin: 0 auto;
+	position: relative;
+}
+.hidden {
+	width: 320px;
+	height: 640px;
+	float: left;
+}
+.logo {
+	background: url("../img/logo0.png") no-repeat;
+	width: 285px;
+	height: 59px;
+	background-size: 85% 100%;
+	position: absolute;
+	top: 80px;
+	left: 40px;
+}
+.menu li span {
+	background: url("../img/ICON.png") no-repeat;
+	width: 45px;
+	height: 44px;
+	position: absolute;
+	top: 15px;
+	left: 44px;
+}
+.menu span.iconHome {
+	background: url("../img/ICON.png") no-repeat;
+}
+.menu span.iconIntroduction {
+	background-position: 0% 14.4%;
+}
+.menu span.iconRent {
+	background-position: 0% 28.7%;
+}
+.menu span.iconJoin {
+	background-position: 0% 42.7%;
+}
+.menu span.iconContact {
+	background-position: 0% 57%;
+}
+.menu {
+	position: absolute;
+	top: 170px;
+	left: 0px;
+	width: 320px;
+}
+.menu ul {
+	list-style: none;
+	width: 320px;
+}
+.menu li {
+	position: relative;
+}
+.menu .menuBar {
+	width: 276px;
+	height: 62.5px;
+	padding-left: 44px;
+	padding-top: 10px;
+}
+a {
+	text-decoration: none;
+}
+.menu .menuItem {
+	font-family: "Noto Sans CJK SC Medium", "Source Han Sans CN Medium";
+	font-size: 22pt;
+	margin-left: 55px;
+	color: #fff;
+}
+.menu .menuItemEng {
+	font-family: "Noto Sans CJK SC Light", "Source Han Sans CN Light";
+	font-size: 11pt;
+	color: #545554;
+	margin-left: 55px;
+}
+.menu .menuBar:hover {
+	font-weight: bold;
+	background-color: #343433;
+}
+.active {
+	font-weight: bold;
+	background-color: #343433;
+}
+.right {
+	padding-top: 80px;
+	width: 1100px;
+	float: left;
+	margin-left: 360px;
+}
+.left {
+	border-right: solid 10px #343433;
+	width: 320px;
+	position: absolute;
+	background-color: #fcb813;
+}
+.imageShow {
+	background: url("../img/ps_1.png") no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+.blackEdge {
+	width: 10px;
+	height: 640px;
+	background-color: #000;
+	float: right;
+}
+.triangle {
+	float: left;
+	width: 0;
+	height: 0;
+	border-top: 50px solid #000;
+	border-right: 50px solid transparent;
+}
+.bottombar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 68px;
+	background-color: rgba(245, 185, 38, 0.8);
+}
+.bottombar .iconSearch span {
+	background: url("../img/ICON.png");
+	background-position: 0% 71%;
+	width: 45px;
+	height: 43px;
+	position: absolute;
+	top: 13.5px;
+	left: 16px;
+}
+.bottombar .iconSearch {
+	width: 77px;
+	height: 68px;
+	background-color: #ee9922;
+}
+.bottombar .iconSearch a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'KaiGenGothicSC-Mediu';
+	font-size: 25pt;
+	position: absolute;
+	left: 87px;
+	top: 9.5px;
+}
+.listNews {
+	float: left;
+	margin-left: 15px;
+	width: 293px;
+	height: 781px;
+	box-shadow: 0px 0px 10px #888888;
+	border: solid 1px #8b8b8c;
+	background-color: #fff;
+}
+.main {
+	float: left;
+	width: 71%;
+}
+.rentAndJoin {
+	float: left;
+	margin-top: 18px;
+}
+.rent {
+	background: url("../img/ps_2_yellow.png");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 300px;
+	height: 110px;
+	position: relative;
+}
+.join {
+	background: url("../img/ps_3_yellow.png");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 300px;
+	height: 110px;
+	margin-top: 15px;
+	position: relative;
+}
+.billSearch {
+	float: left;
+	margin-top: 18px;
+	margin-left: 10px;
+	width: 235px;
+	height: 227px;
+	background-color: #f9bc2e;
+	position: relative;
+	border-bottom: solid 8px #000;
+}
+.tip {
+	background: #343433;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 227px;
+	height: 47px;
+	padding: 10px 0 0 8px;
+}
+.tip p {
+	color: #fff;
+	font-family: 'KaiGenGothicSC-Normal';
+	font-size: 9pt;
+	letter-spacing: 1pt;
+	margin-bottom: 3px;
+}
+.qrCode {
+	background: url("../img/erweima.png");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 209px;
+	height: 219px;
+	border: 8px solid #fcb813;
+	float: left;
+	margin-top: 18px;
+	margin-left: 10px;
+}
+.billSearchInputBox {
+	margin-top: 56px;
+}
+.billSearchInputBox input {
+	border: none;
+	border-bottom: solid 1px #fcde97;
+	width: 192px;
+	height: 32px;
+	margin-left: 12px;
+	background-color: #f9bc2e;
+	outline: none;
+}
+.clearOrSearch {
+	text-align: right;
+	margin-right: 12px;
+	margin-top: 8px;
+	font-family: 'KaiGenGothicSC-Mediu';
+	font-size: 11pt;
+	color: #000;
+}
+.Carousel {
+	overflow: hidden;
+	position: relative;
+	height: 165px;
+}
+.Carousel .imgs {
+	width: 1475px;
+	height: 165px;
+	position: absolute;
+}
+.Carousel .imgs li {
+	float: left;
+	height: 165px;
+	width: 293px;
+	list-style: none;
+}
+.Carousel .imgs img {
+	width: 293px;
+	height: 165px;
+}
+.Carousel .num {
+	overflow: auto;
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	list-style: none;
+}
+.Carousel .num li {
+	float: left;
+	height: 10px;
+	width: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	list-style: none;
+}
+.yellow {
+	background-color: #fcb813;
+}
+.white {
+	background-color: #fff;
+}
+.news {
+	margin-top: 25px;
+}
+.news .newsContent {
+	margin-left: 10%;
+	width: 80%;
+	height: 55px;
+	border-bottom: solid 1px #8b8b8c;
+	position: relative;
+	padding-top: 5px;
+}
+.news .new {
+	background-color: #fcb813;
+	font-size: 7pt;
+	font-weight: bold;
+	height: 12px;
+	padding: 3px;
+}
+.news .newTitle {
+	font-family: 'KaiGenGothicSC-Normal';
+	font-size: 10pt;
+	color: #231f20;
+	line-height: 25px;
+}
+.news p {
+	font-family: 'KaiGenGothicSC-Normal';
+	text-align: right;
+	color: #777778;
+	font-size: 15px;
+	position: absolute;
+	right: 0;
+	bottom: 3px;
+}
+.leftBottom .login, .leftBottom .register {
+	position: relative;
+	width: 130px;
+	height: 30px;
+	border: none;
+	background-color: rgb(251, 205, 114);
+	color: #fff;
+	font-size: 17px;
+	padding-left: 24px;
+	cursor: pointer;
+}
+.leftBottom .login span, .leftBottom .register span {
+	width: 45px;
+	height: 22px;
+	position: absolute;
+	top: 3px;
+	left: 5px;
+}
+.leftBottom .register {
+	margin-left: 14px;
+}
+.leftBottom .login span {
+	background: url("../img/ICON.png");
+	background-position: 0% 82%;
+}
+.leftBottom .register span {
+	background: url("../img/ICON.png");
+	background-position: 0% 90%;
+}
+.leftBottom {
+	width: 290px;
+	position: absolute;
+	bottom: 50px;
+	left: 15px;
+}
+.leftBottom hr {
+	background-color: rgba(250, 250, 250, 0.6);
+	width: 290px;
+	border: none;
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.leftBottom p {
+	font-family: 'KaiGenGothicSC-Light';
+	font-size: 9pt;
+	color: rgba(250, 250, 250, 0.6);
+}
+.leftBottom .smartLogo {
+	width: 14px;
+	height: 15px;
+	background: url("../img/logo1.png");
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.midBottom .rent a, .midBottom .join a {
+	text-decoration: none;
+	color: #fff;
+	position: absolute;
+	left: 17px;
+	bottom: 7px;
+	font-family: 'KaiGenGothicSC-Mediu';
+	font-size: 20pt;
+}
+a {
+	text-decoration: none;
+}
+ul, li, ol {
+	list-style: none;
+}
+.subMenu {
+	position: absolute;
+	top: 0px;
+	left: 320px;
+	width: 250px;
+	background-color: #343433;
+	z-index: 9999;
+	color: #fff;
+	overflow: hidden;
+	display: none;
+}
+.subMenu hr {
+	border: none;
+	width: 250px;
+	height: 1px;
+	background-color: rgba(250, 250, 250, 0.3);
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+p.subTitle {
+	font-size: 22px;
+	margin-left: 30px;
+	letter-spacing: 4px;
+	margin-top: 24px;
+}
+.subMenu ul li p {
+	font-size: 16px;
+	margin-left: 30px;
+	letter-spacing: 2px;
+}
+.subMenu ul li {
+	height: 36px;
+	width: 250px;
+	cursor: pointer;
+}
+.menu .subMenu ul {
+	width: 250px;
+}
+.botleft, .botright {
+	height: 160px;
+	line-height: 160px;
+	float: left;
+	text-align: center;
+}
+.bot {
+	clear: both;
+	width: 100%;
+	height: 160px;
+	padding-top: 20px;
+}
+.botleft {
+	background: url("../img/midbl.png") no-repeat;
+	width: 24.5%;
+	background-size: 100% 100%;
+	float: left;
+}
+.botright {
+	background: url("../img/midbr.png") no-repeat;
+	width: 75%;
+	background-size: 100% 100%;
+	float: right;
+}
